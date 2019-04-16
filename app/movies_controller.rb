@@ -6,8 +6,8 @@
 # end                              # end
 
 def can_be_instantiated_and_then_saved
-  movie = Movie.create(title: "Inglorious Bastards", lead: "Brad Pit")
-  movie.title = "This is a title."
+  movie = Movie.create(lead: "Brad Pit")
+  movie.title = "Inglorious Bastards"
   __
 end
 
